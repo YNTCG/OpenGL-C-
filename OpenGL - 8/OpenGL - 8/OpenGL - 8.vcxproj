@@ -79,8 +79,8 @@
     <LibraryPath>C:\Users\yevge\Desktop\OpenGL C++\OpenGL - 8\Dependencies\GLFW\lib-vc2022;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\yevge\Desktop\OpenGL C++\OpenGL - 8\Dependencies\GLFW\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\yevge\Desktop\OpenGL C++\OpenGL - 8\Dependencies\GLFW\lib-vc2022;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Yevgeni\Documents\GitHub\OpenGL-C-\OpenGL - 8\Dependencies\GLFW\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Yevgeni\Documents\GitHub\OpenGL-C-\OpenGL - 8\Dependencies\GLFW\lib-vc2022;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>C:\Users\yevge\Desktop\OpenGL C++\OpenGL - 8\Dependencies\GLFW\include;$(IncludePath)</IncludePath>
@@ -147,7 +147,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\glad.c" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="EBO.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="shaderClass.cpp" />
+    <ClCompile Include="stb.cpp" />
+    <ClCompile Include="Texture.cpp" />
+    <ClCompile Include="VAO.cpp" />
+    <ClCompile Include="VBO.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="EBO.h" />
+    <ClInclude Include="shaderClass.h" />
+    <ClInclude Include="Texture.h" />
+    <ClInclude Include="VAO.h" />
+    <ClInclude Include="VBO.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="default.org" />
+    <None Include="default.vert" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="brick.png" />
+    <Image Include="pop_cat.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

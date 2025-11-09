@@ -79,8 +79,8 @@
     <LibraryPath>C:\Users\yevge\Desktop\OpenGL C++\OpenGL - 7\Dependencies\GLFW\lib-vc2022;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\yevge\Desktop\OpenGL C++\OpenGL - 7\Dependencies\GLFW\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\yevge\Desktop\OpenGL C++\OpenGL - 7\Dependencies\GLFW\lib-vc2022;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Yevgeni\Documents\GitHub\OpenGL-C-\OpenGL - 7\Dependencies\GLFW\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Yevgeni\Documents\GitHub\OpenGL-C-\OpenGL - 7\Dependencies\GLFW\lib-vc2022;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <IncludePath>C:\Users\yevge\Desktop\OpenGL C++\OpenGL - 7\Dependencies\GLFW\include;$(IncludePath)</IncludePath>
