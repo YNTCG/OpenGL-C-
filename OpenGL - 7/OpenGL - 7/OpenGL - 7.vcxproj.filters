@@ -64,7 +64,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="default.org">
+    <None Include="default.frag">
       <Filter>Resource Files\Shaders</Filter>
     </None>
     <None Include="default.vert">
