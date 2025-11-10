@@ -70,7 +70,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="default.org">
+    <None Include="default.frag">
       <Filter>Resource Files\Shaders</Filter>
     </None>
     <None Include="default.vert">
@@ -78,10 +78,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="brick.png">
+    <Image Include="pop_cat.png">
       <Filter>Resource Files\Textures</Filter>
     </Image>
-    <Image Include="pop_cat.png">
+    <Image Include="..\brick.png">
       <Filter>Resource Files\Textures</Filter>
     </Image>
   </ItemGroup>
